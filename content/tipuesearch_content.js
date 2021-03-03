@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': 'First', 'text': '\n https://www.youtube.com/watch?v=Lwi5wezOpzA', 'tags': '', 'url': 'First.html'}, {'title': 'LabVIEW', 'text': '\n \n https://www.youtube.com/watch?v=2Qs6NPrgcAw&t=84s', 'tags': '', 'url': 'LabVIEW.html'}]};
+var tipuesearch = {"pages": [{'title': 'TONY', 'text': '\n https://www.youtube.com/watch?v=Lwi5wezOpzA', 'tags': '', 'url': 'TONY.html'}, {'title': 'LabVIEW', 'text': '\n \n https://www.youtube.com/watch?v=2Qs6NPrgcAw&t=84s', 'tags': '', 'url': 'LabVIEW.html'}]};
