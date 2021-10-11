@@ -128,7 +128,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li class='has-children'><a href='高沁安1.html'>高沁安1</a><ul class='dropdown'><li><a href='課程作品.html'>課程作品</a><li><a href='證照&徽章.html'>證照&徽章</a><li><a href='科學會作品.html'>科學會作品</a><li class='has-children'><a href='履歷製作.html'>履歷製作</a><ul class='dropdown'><li><a href='October 2 2021.html'>October 2 2021</a><li><a href='October 5 2021.html'>October 5 2021</a><li><a href='October 7 2021.html'>October 7 2021</a></li></li></ul></ul><li class='has-children'><a href='專題製作.html'>專題製作</a><ul class='dropdown'><li><a href='October 9.html'>October 9</a></li></ul><li><a href='Github倉儲管理.html'>Github倉儲管理</a><li><a href='Scilab analysis.html'>Scilab analysis</a></li>
+                     <li class='has-children'><a href='高沁安.html'>高沁安</a><ul class='dropdown'><li><a href='課程作品.html'>課程作品</a><li><a href='證照&徽章.html'>證照&徽章</a><li><a href='科學會作品.html'>科學會作品</a><li class='has-children'><a href='履歷製作.html'>履歷製作</a><ul class='dropdown'><li><a href='October 2 2021.html'>October 2 2021</a><li><a href='October 5 2021.html'>October 5 2021</a><li><a href='October 7 2021.html'>October 7 2021</a></li></li></ul></ul><li class='has-children'><a href='專題製作.html'>專題製作</a><ul class='dropdown'><li><a href='October 9.html'>October 9</a></li></ul><li><a href='Github倉儲管理.html'>Github倉儲管理</a></li>
                       </ul>
                 </nav>
               </div>
@@ -139,7 +139,7 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">高沁安1 << <a href='高沁安1.html'>Previous</a> <a href='證照&徽章.html'>Next</a> >> 證照&徽章<br /><h1>課程作品</h1>
+    <div id="tipue_search_content">高沁安 << <a href='高沁安.html'>Previous</a> <a href='證照&徽章.html'>Next</a> >> 證照&徽章<br /><h1>課程作品</h1>
 <p><span>CNC車床加工 : <a href="https://youtu.be/56PdHGlTlfE">https://youtu.be/56PdHGlTlfE</a></span></p>
 <p>題目:雞尾酒杯</p>
 <p>使用<span>SolidWorks繪製雞尾酒杯，並用</span>G-code撰寫CNC車床程式。</p>
@@ -150,7 +150,74 @@ img.add_border {
 <p>使用<span>LabVIEW撰寫販賣機程式，並且使用MyRIO製作出簡易實體販賣機。</span></p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/2Qs6NPrgcAw" width="560"></iframe></p>
 <p></p>
-<br />高沁安1 << <a href='高沁安1.html'>Previous</a> <a href='證照&徽章.html'>Next</a> >> 證照&徽章</div>
+<p>網際網路課程 : <a href="https://youtu.be/oNEmm5F1pwU">https://youtu.be/oNEmm5F1pwU</a></p>
+<p>學習如何管理github倉儲，並使用虛擬主機。</p>
+<p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/oNEmm5F1pwU" width="560"></iframe></p>
+<p></p>
+<p>Scilab analysis :</p>
+<p>在matlab也有相同的功能，則scilab是免費版的，兩者差別在於圖案的華麗度。</p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">進行四連桿分析，可預先到scilab網站下載。</span></span></p>
+<p><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">scilab download ：</span></span><a href="https://www.scilab.org/download/6.1.0">https://www.scilab.org/download/6.1.0</a></p>
+<p><img alt="" height="130" src="./../images/9UneDdTL8o.png" width="100"/></p>
+<p>下載完成進入scilab，點選啟動sciNotes可在此記事本打入需要的程式碼。</p>
+<p><img alt="" height="95" src="./../images/WScilex_Uy0oxd3HRh.png" width="500"/></p>
+<p>依據題目可以輸入需要的值及公式進行分析。</p>
+<p>例:一四連桿如下圖所示，其中桿件<span>2</span>為曲柄<span>(</span>可旋轉<span>360</span>度<span>)</span>，桿件<span>3</span>為連接桿，若桿件<span>1</span>長度為<span>100mm</span>，桿件<span>2</span>長度為<span>30mm</span>，桿件<span>3</span>長度為<span>80 mm</span>，桿件<span>4</span>長度為<span>60mm</span>，<span>P</span>為桿件<span>3</span>上一點，夾角a=30<sup>o</sup>，試使用所付之<span>Scilab</span>程式繪製<span>P</span>點軌跡與q<sub>3</sub>與q<sub>4</sub>歷程圖。</p>
+<p><img alt="" height="350" src="./../images/圖.png" width="569"/></p>
+<p>可將以上已知的數值帶入公式中，在SciNotes上打入程式碼，進行軌跡模擬。</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">clear
+clc
+dtr=%pi/180
+e1=1;e2=1;
+r1=100;r2=30;r3=80;r4=60;r3p=40;
+alpha=30*dtr;
+theta2=(0:10:360)*dtr;
+for i=1:1:length(theta2)
+   if i==1
+       theta3p(1)=70*dtr;
+       theta4p(1)=120*dtr;
+   else
+      theta3p(i)=theta3p(i-1);
+      theta4p(i)=theta4p(i-1);
+ end
+ while abs(e1)&gt;0.01*dtr &amp;&amp; abs(e2)&gt;0.01*dtr
+    e1=r2*cos(theta2(i))+r3*cos(theta3p(i))-r4*cos(theta4p(i))-r1
+    e2=r2*sin(theta2(i))+r3*sin(theta3p(i))-r4*sin(theta4p(i))
+    delta3=(e1*cos(theta4p(i))+e2*sin(theta4p(i)))/(r3*sin(theta3p(i)-theta4p(i)));
+    delta4=(e1*cos(theta3p(i))+e2*sin(theta3p(i)))/(r4*sin(theta3p(i)-theta4p(i)));
+    theta3p(i)=delta3+theta3p(i);
+    theta4p(i)=delta4+theta4p(i);
+end
+e1=1;e2=1;
+theta3(i)=theta3p(i)/dtr;
+theta4(i)=theta4p(i)/dtr;
+Xp(i)=r2*cos(theta2(i))+r3p*cos(theta3p(i)+alpha);
+Yp(i)=r2*sin(theta2(i))+r3p*sin(theta3p(i)+alpha);
+end
+clf
+
+subplot(1,2,1)
+plot2d(Xp,Yp,5,rect=[-10,5,50,65]);xgrid(1);
+xtitle('Yp vs Xp');
+xlabel('Xp');
+ylabel('Yp');
+y=[theta3,theta4];
+subplot(2,2,2)
+plot(theta2'/dtr,y);xgrid(1);
+a=gca();
+a.data_bounds=[0,0;400,200];
+xtitle('theta3, theta3 vs theta2','theta2')
+legend('theta3','theta4')
+</pre>
+<p>打完程式碼之後，先儲存sce檔，再到執行頁面中打開剛才存取的檔案</p>
+<p><img alt="" height="517" src="./../images/儲存.png" width="500"/></p>
+<p>再按下執行。</p>
+<p><img alt="" height="630" src="./../images/執行.png" width="500"/></p>
+<p>執行結束後就會得到我們需要的結果了。</p>
+<p><img alt="" height="268" src="./../images/最終結果.png" width="500"/></p>
+<p><img alt="" height="253" src="./../images/波浪.png" width="500"/></p>
+<p><img alt="" height="504" src="./../images/元.png" width="500"/></p>
+<p>分析結果能讓我們知道，機構的運行軌跡，方便去辨識連桿是怎麼運動的。</p><br />高沁安 << <a href='高沁安.html'>Previous</a> <a href='證照&徽章.html'>Next</a> >> 證照&徽章</div>
         
     <!-- footer -->
       <div class="container">
